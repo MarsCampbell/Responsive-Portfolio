@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contacts</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"  type="text/css" href="style.css">
+    </head>
+    <body>
+            <header>
+                    <div class="container">
+                        <div id="branding">
+                            <h1><span class="highlight">Jon Campbell</span></h1>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li class="current"><a href="index.html">Index</a></li>
+                                <li class="current"><a href="porfolio.html">Portfolio</a></li>
+                                <li class="current"><a href="contacts.html">Contacts</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+
+                    <main id="contactsScreen">
+                            <section id="contactDetails"><h2>Contact Details</h2>
+                                <form method="post">
+                                    <div class="formRow">
+                                        <label for="contactName">Contact name</label>
+                                        <input required autofocus autocomplete="off" name="contactName"
+                                        type="text" class="validated" id="contactName" pattern=".{5,100}"/>
+                                    </div> <br>
+                                    <div class="formRow">
+                                        <label for="phoneNumber">Phone Number</label>
+                                        <input required pattern=" [0-9() ]{5,15}" placeholder="Include area code"
+                                        name="phoneNumber" type="tel" id="phoneNumber" class="validated"/>
+                                    </div> <br>
+                                    <div class="formRow">
+                                        <label for="emailAddress">Email Address</label>
+                                        <input required name="emailAddress" id="emailAddress" type="email"
+                                        class="validated"/>
+                                    </div> <br>
+                                    <div class="formRow">
+                                       
+                                    </div>
+                                    <div class="formRow">
+                                        <label for="notes">Notes</label>
+                                        <textarea cols="40" rows="6" name="notes" class="validated"
+                                        maxLength="1000"></textarea>
+                                    </div> <br>
+                                    </form>
+                            </div>
+              
+
+    </body>
+</html>
