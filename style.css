@@ -105,3 +105,9 @@ footer {
     background-color: #e8491d;
     text-align: center;
 }
+
+#pokemonGame {
+    
+    height: 150px;
+    width: 150px;
+}
