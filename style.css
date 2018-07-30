@@ -114,3 +114,17 @@ footer {
     padding: 15px;
     border: 15px;
 }
+
+#hangmanGame {
+    
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+    border: 15px;
+}
+
+.game {
+    
+    display: inline;
+}
