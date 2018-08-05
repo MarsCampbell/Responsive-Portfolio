@@ -106,25 +106,29 @@ footer {
     text-align: center;
 }
 
-#pokemonGame {
-    
-    height: 150px;
-    width: 150px;
-    margin: 15px;
-    padding: 15px;
-    border: 15px;
-}
-
-#hangmanGame {
-    
-    height: 150px;
-    width: 150px;
-    margin: 15px;
-    padding: 15px;
-    border: 15px;
-}
-
 .game {
-    
+
     display: inline;
+    margin: 20px;
+    padding:30px;
+    border: 5px;
+}
+
+#trivia {
+
+    height: 150px;
+    width: 150px;
+}
+
+#pokemon {
+
+    height: 150px;
+    width: 150px;
+
+}
+
+#hangman {
+
+    height: 150px;
+    width: 150px;
 }
