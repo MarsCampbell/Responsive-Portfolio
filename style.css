@@ -112,6 +112,8 @@ footer {
     margin: 20px;
     padding:30px;
     border: 5px;
+    height: 150px;
+    width: 150px;
 }
 
 #trivia {
